@@ -9,7 +9,7 @@ mindasaida = minentrada1 + minentrada2
 if mindasaida >= 60:
     horadasaida = horadasaida + 1
     mindasaida = mindasaida - 60
-if horadasaida > 12:
+if horadasaida >= 12:
     horadasaida = horadasaida - 12
 if horadasaida > 24:
     horadasaida = horadasaida - 24
